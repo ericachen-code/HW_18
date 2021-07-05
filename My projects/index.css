@@ -1,0 +1,83 @@
+Header{
+    font-size:25px;
+    font-style:rokkitt;
+    font-weight:medium;
+    margin-left:20px;
+  }
+  .nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    }
+  .navlink{
+    font-size:20px;
+    padding:40px;
+  }
+  h1{
+    font-weight:medium;
+    text-align:center;
+    margin-top:90px;
+    font-size:40px;
+  }
+  .project1{
+    width: 250px;
+    height: auto;
+    text-align:center;
+    display: block;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top:150px;
+  }
+  .title{
+    text-align:center;
+    margin-left:190px;
+    margin-bottom:260px;
+    margin-top:-260px;
+    font-style:rokkitt;
+    font-weight:regular;
+   }
+  .content1{
+    margin-top:-200px;
+    width:300px;
+    margin-left:700px;
+   }
+  .button1{
+    background-color:black;
+    color:white;
+    margin-left:780px;
+    margin-top:20px;
+  }
+  .project2{
+    width:250px;
+    height:auto;
+    text-align:center;
+    display: block;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top:250px;
+  }
+  .title2{
+    text-align:center;
+    margin-left:190px;
+    margin-bottom:260px;
+    margin-top:-260px;
+    font-style:rokkitt;
+    font-weight:regular;
+  }
+  .content2{
+    margin-top:-200px;
+    width:300px;
+    margin-left:700px;
+  }
+  .button2{
+    background-color:black;
+    color:white;
+    margin-left:780px;
+    margin-top:20px; 
+  }
+  p{
+    text-align:center;
+    margin-top:200px;
+    font-size:20px;
+    text-decoration:underline;
+  }

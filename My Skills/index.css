@@ -1,0 +1,168 @@
+Header{
+  font-size:25px;
+  font-style:rokkitt;
+  font-weight:medium;
+  margin-left:20px;
+}
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+h1{
+  font-weight:medium;
+  text-align:center;
+  margin-top:120px;
+  font-size:40px;
+}
+.box1{
+border: 1px solid black;
+outline-style: outset;
+width:260px;
+height:350px;
+float:right;
+position:absolute;
+margin-top:50px;
+margin-bottom:110px;
+margin-left:1000px;
+padding:20px;
+}
+
+.box2{
+border: 1px solid black;
+outline-style: outset;
+width:260px;
+height:350px;
+position:absolute;
+margin-left:130px;
+margin-top:50px;
+padding:20px;
+}
+
+.box3{
+border: 1px solid black;
+outline-style: outset;
+width:260px;
+height:350px;
+margin-left: 560px;
+position: absolute;
+margin-top:50px;
+padding:20px;
+}
+
+.Ur{
+width:80px;
+height:auto;
+position:absolute;
+margin-top:90px;
+margin-left:90px;
+}
+.Urp{
+width:170px;
+font-size:15px;
+position:absolute;
+margin-left:50px;
+margin-top:250px;
+}
+.Uip{
+width:170px;
+font-size:15px;
+position:absolute;
+margin-left:50px;
+margin-top:250px;
+}
+.Wdp{
+width:170px;
+font-size:15px;
+position:absolute;
+margin-left:50px;
+margin-top:250px;
+}
+#P1{
+font-weight:bold;
+font-size:22px;
+position:absolute;
+margin-left:60px;
+margin-bottom:50px;
+}
+#P2{
+font-weight:bold;
+font-size:22px;
+position:absolute;
+margin-left:25px;
+margin-top:20px;
+}
+#P3{
+font-weight:bold;
+font-size:22px;
+position:absolute;
+margin-left:45px;
+}
+
+
+.Uid{
+width:100px;
+height:auto;
+position:absolute;
+margin-top:90px;
+margin-left:80px;
+}
+.Wd{
+width:100px;
+height:auto;
+position:absolute;
+margin-top:90px;
+margin-left:80px;
+}
+.flex-container{
+display:flex;
+flex-direction:row;
+font-size:20px;
+font-weight:medium;
+}
+.one{
+display:absolute;
+margin-right:100px;
+margin-top:10px;
+}
+.two{
+display:absolute;
+margin-right:100px;
+margin-top:10px;
+}
+.three{
+display:relative;
+margin-right:30px;
+display:relative;
+margin-top:10px;
+}
+
+
+.grid-container{
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; font-weight:bold; margin-top:110px;font-size:20px;
+}
+.grid-item1{
+
+grid-column-start: 4;
+grid-column-end: 5;
+margin-left:20px;
+display:felx;
+margin-left:70px;
+
+}
+.grid-item2{
+grid-column-start: 11;
+grid-column-end: 12;
+
+}
+.grid-item3{
+grid-column-start: 17;
+grid-column-end: 18;
+}
+@media screen and (max-width: 600px) {
+body {
+  background-color: olive;
+}
+} 
